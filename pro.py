@@ -145,28 +145,68 @@
 # print(ab(6)) 
 ...
 # file handling
-
+# read
 # file = open("data.txt","r")
 # school=file.read()
 # print(school)
 # file.close()
-
-file = open("data.txt","w")
-school=file.write("b.tech cse")
-print(school)
-file.close()
+# write
+# file = open("data.txt","w")
+# school=file.write("b.tech cse")
+# print(school)
+# file.close()
 
 # if elif else
-marks = 85
-if marks>=90:
-    print("grade A")
-elif marks>=50:
-      print("grade B")
-elif marks>=50:
-     print("grade C")
-else:
-     print("Fail")
-                   
+# marks = 85
+# if marks>=90:
+#     print("grade A")
+# elif marks>=50:
+#       print("grade B")
+# elif marks>=50:
+#      print("grade C")
+# else:
+#      print("Fail")
+
+
+# delete
+# import os
+# os.remove("sixday.py")
+# print(file)
+
+# exceptional handling
+# try:
+#  number=int(input("enter the number"))
+#  result=40/number
+#  print("your result is",result)
+# # except:
+# #     print("error occur0d")
+# except ZeroDivisionError:
+#     print("enter your number except 0")
+# except ValueError:
+#    print("enter your number except 0")
+# finally:
+#    print("program executed")
+
+# number=[2,4,6,8]
+# try:
+#    print(number[5])
+# except Exception as e:
+#    print("error occurred",e) 
+# finally:
+#    print("program executed")
+       
+# module and package
+# while loop
+# a=0
+# while(a<=10):
+#  print(a+1)
+...
+# a=0
+# while(a<10):
+#  print(a+1)
+
+
+
 
 
 
